@@ -1,0 +1,27 @@
+.body{    
+    color:#212121;
+    font-family: Roboto ,sans-serif;    
+ }
+ .title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height:0.5;    
+ }
+ .text{
+    color: #757575 ;    
+    font-size: 16px;
+    line-height: 1.875;
+ }
+ .button {
+    color:#212121;
+    background-color:#F5F4FA ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height:1.875;
+ }
+ .button:hover, button:focus{
+    background-color:#2196F3 ;
+ }
+.button{
+    cursor: pointer;
+}
