@@ -1,27 +1,105 @@
-.body{    
-    color:#212121;
-    font-family: Roboto ,sans-serif;    
- }
- .title{
-    font-size: 18px;
-    font-weight: 700;
-    line-height:0.5;    
- }
- .text{
-    color: #757575 ;    
-    font-size: 16px;
-    line-height: 1.875;
- }
- .button {
-    color:#212121;
-    background-color:#F5F4FA ;
-    font-size: 16px;
-    font-weight: 500;
-    line-height:1.875;
- }
- .button:hover, button:focus{
-    background-color:#2196F3 ;
- }
-.button{
-    cursor: pointer;
+.body {
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+}
+.header {
+}
+:root {
+  --black-color: #000000;
+  --accent-color: #2196f3;
+  --primary-bgc: #ffffff;
+}
+.footer-logo,
+.logo {
+  text-decoration: none;
+  color: var(--black-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.blue-logo {
+  color: var(--accent-color);
+}
+
+.footer-logo {
+  color: var(--primary-bgc);
+}
+.header-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.active-link {
+  color: var(--accent-color);
+}
+.header-mail,
+.header-tel {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.active-mail,
+.active-tel:hover {
+  color: var(--accent-color);
+}
+.title {
+  font-size: 18 px;
+  font-weight: 700;
+  line-height: 0.5;
+}
+.text {
+  color: #757575;
+  font-size: 16 px;
+  line-height: 1.875;
+}
+.main-btn {
+}
+. .btn {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.*btn-web {
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 575px;
+  top: 178px;
+}
+.*main-btn {
+  color: #212121;
+  background-color: #f5f4fa;
+  font-size: 16 px;
+  font-weight: 500;
+  line-height: 1.875;
+}
+.*btn-about {
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 494px;
+  top: 178px;
+}
+.footer {
+  background: #2f303a;
+}
+.footer-adress {
+  text-decoration: none;
+  font-style: normal;
 }
