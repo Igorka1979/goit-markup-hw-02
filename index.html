@@ -39,75 +39,97 @@
       >
     </header>
     <main>
-      <section>
-        <h2>Ефективні рішення <br />Для Вашого Бізнесу</h2>
-        <button type="button" class="button">Заказати послугу</button>
+      <section class="hero">
+        <h2 class="hero-title">Ефективні рішення <br />Для Вашого Бізнесу</h2>
+        <button type="button" class="hero-btn">Заказати послугу</button>
       </section>
       <section>
         <ul>
-          <li>
-            <h3>Увага до деталей</h3>
-            <p>
+          <li class="preference">
+            <h3 class="preference-title">Увага до деталей</h3>
+            <p class="preference-text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h3>Пунктуальність</h3>
-            <p>
+            <h3 class="preference-title">Пунктуальність</h3>
+            <p class="preference-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h3>Планування</h3>
-            <p>
+            <h3 class="preference-title">Планування</h3>
+            <p class="preference-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3>Сучасні технології</h3>
-            <p>
+            <h3 class="preference-title">Сучасні технології</h3>
+            <p class="preference-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Чим ми займаємось</h2>
-        <ul>
-          <li><img src="./images/box1.jpg" alt="Лептоп" width="370" /></li>
-          <li><img src="./images/box2.jpg" alt="Смартфон" width="370" /></li>
-          <li><img src="./images/box3.jpg" alt="Планшет" width="370" /></li>
+      <section class="work">
+        <h2 class="work-title">Чим ми займаємось</h2>
+        <ul class="work-list">
+          <li class="list-image-lap">
+            <img src="./images/box1.jpg" alt="Лептоп" width="370" />
+          </li>
+          <li class="list-image-smart">
+            <img src="./images/box2.jpg" alt="Смартфон" width="370" />
+          </li>
+          <li class="list-image-plan">
+            <img src="./images/box3.jpg" alt="Планшет" width="370" />
+          </li>
         </ul>
       </section>
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
-          <li>
-            <img src="./images/img01.jpg" alt="Product Designer" width="270" />
-            <h3>Ігор Дем`яненко</h3>
-            <p>Product Designer</p>
-          </li>
-          <li>
+      <section class="team">
+        <h2 class="team-title">Наша команда</h2>
+        <ul class="team-list">
+          <li class="team-item-ihor">
             <img
+              class="image-igor"
+              src="./images/img01.jpg"
+              alt="Product Designer"
+              width="270"
+            />
+            <h3 class="team-name">Ігор Дем`яненко</h3>
+            <p class="team-trade">Product Designer</p>
+          </li>
+          <li class="team-item-olha">
+            <img
+              class="image-olha"
               src="./images/img02.jpg"
               alt="Frontend Developer"
               width="270"
             />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-name">Ольга Репина</h3>
+            <p class="team-trade">Frontend Developer</p>
           </li>
-          <li>
-            <img src="./images/img03.jpg" alt="Marketing" width="270" />
-            <h3>Микола Тарасов</h3>
-            <p>Marketing</p>
+          <li class="team-item-nik">
+            <img
+              class="image-nik"
+              src="./images/img03.jpg"
+              alt="Marketing"
+              width="270"
+            />
+            <h3 class="team-name">Микола Тарасов</h3>
+            <p class="team-trade">Marketing</p>
           </li>
-          <li>
-            <img src="./images/img04.jpg" alt="UI Designer" width="270" />
-            <h3>Михайло Єрмаков</h3>
-            <p>UI Designer</p>
+          <li class="team-item-miha">
+            <img
+              class="image-miha"
+              src="./images/img04.jpg"
+              alt="UI Designer"
+              width="270"
+            />
+            <h3 class="team-name">Михайло Єрмаков</h3>
+            <p class="team-trade">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -116,10 +138,12 @@
       <a lang="en" class="footer-logo" href="./index.html"
         ><span class="blue-logo">Web</span>Studio</a
       >
-      <address class="footer-adress">
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
-        <a href="mailto:info@example.com">info@example.com</a>
-        <a href="tel:+380991111111">+380961111111</a>
+      <address>
+        <p class="footer-adress">м.Київ, пр-т Лесі Українки, 26</p>
+        <a href="mailto:info@example.com" class="footer-mail"
+          >info@example.com</a
+        >
+        <a href="tel:+380991111111" class="footer-tel">+380961111111</a>
       </address>
     </footer>
   </body>
