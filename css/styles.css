@@ -108,7 +108,7 @@
 .preference-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--grey-heder);
 }
@@ -159,7 +159,7 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.image-igor {
+/*.image-igor {
   background: url(4853);
   border-radius: 0px;
 }
@@ -168,7 +168,7 @@
 .image-nik {
 }
 .image-miha {
-}
+}*/
 .team-item-olha {
   background: var(--primary-bgc);
   text-align: center;
@@ -253,7 +253,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--black-link);
