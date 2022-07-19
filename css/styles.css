@@ -88,7 +88,6 @@
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-bgc);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -238,11 +237,13 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 .text {
   color: var(--grey-heder);
   font-size: 16px;
   line-height: 1.875;
+  letter-spacing: 0.03em;
 }
 .main-btn {
 }
@@ -257,7 +258,6 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--black-link);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .btn:hover,
 .btn:focus {
