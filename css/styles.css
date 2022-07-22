@@ -1,4 +1,6 @@
 .body {
+  width: 1600px;
+  margin: 0 auto;
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
 }
@@ -13,8 +15,34 @@
   --team-bg: #f5f4fa;
   --border-white: #eeeeee;
 }
-.footer-logo,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+.header {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
 .logo {
+  width: 145px;
+  display: block;
+  margin: 24px 93px 25px 215px;
   text-decoration: none;
   color: var(--black-color);
   font-family: Raleway, sans-serif;
@@ -25,8 +53,10 @@
 .blue-logo {
   color: var(--accent-color);
 }
-.footer-logo {
-  color: var(--primary-bgc);
+.header-list {
+  width: 281px;
+  display: flex;
+  margin: 32px 866px 32px 453px;
 }
 .header-link {
   text-decoration: none;
@@ -39,7 +69,6 @@
 .active-link {
   color: var(--accent-color);
 }
-
 .header-tel {
   text-decoration: none;
   font-weight: 500;
@@ -64,11 +93,22 @@
 .header-tel:focus {
   color: var(--accent-color);
 }
-
 .hero {
+  width: 1600px;
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  outline: 2px solid tomato;
   background: var(--black-hero);
 }
 .hero-title {
+  max-width: 696px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -76,10 +116,15 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-bgc);
+  outline: 2px solid tomato;
 }
 .hero-btn {
-  background-color: var(--accent-color);
+  display: block;
+  padding: 10px 32px;
   border-radius: 4px;
+  margin: 0 auto 30px;
+  border: none;
+  background-color: var(--accent-color);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -88,13 +133,14 @@
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-bgc);
+  outline: 2px solid tomato;
 }
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--blue-hover);
   color: var(--primary-bgc);
 }
-.preference {
+.preference-main {
 }
 .preference-title {
   font-weight: 700;
@@ -262,6 +308,7 @@
 .btn:hover,
 .btn:focus {
   background-color: var(--accent-color);
+  border-radius: 4px;
   color: var(--primary-bgc);
 }
 .main-item {
@@ -272,6 +319,17 @@
 .footer {
   text-decoration: none;
   background: var(--black-hero);
+}
+.footer-logo {
+  text-decoration: none;
+  color: var(--black-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.footer-logo {
+  color: var(--primary-bgc);
 }
 .footer-adress {
   font-style: normal;
