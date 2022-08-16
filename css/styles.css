@@ -22,11 +22,14 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+ 
 }
 ul,
 ol {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 0;
 }
 .container-header {
@@ -36,13 +39,14 @@ ol {
   width: 1200px;
 }
 .header {
-  width: 100%;
+ 
   margin-left: auto;
   margin-right: auto;
   outline: 2px solid tomato;
   align-items: center;
 }
 .header-nav {
+  margin-left: 93px;
   display: flex;
 }
 .logo {
@@ -53,8 +57,8 @@ ol {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
-  padding-left: 215px;
+  border: 10px solid red;
+  display: flex;
 }
 .blue-logo {
   color: var(--accent-color);
