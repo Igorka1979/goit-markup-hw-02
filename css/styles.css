@@ -34,20 +34,20 @@ ol {
 }
 .container-header {
   display: flex;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto,0;
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .header {
- 
-  margin-left: auto;
-  margin-right: auto;
-  outline: 2px solid tomato;
+   
   align-items: center;
 }
 .header-nav {
-  margin-left: 93px;
-  display: flex;
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-right: 344px;
 }
 .logo {
   width: 145px;
@@ -56,9 +56,9 @@ ol {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
-  border: 10px solid red;
+  line-height: 1.19;  
   display: flex;
+  margin: 25px 94px 25px 215px;
 }
 .blue-logo {
   color: var(--accent-color);
@@ -66,8 +66,7 @@ ol {
 .header-list {
   width: 281px;
   display: flex;
-  align-items: center;
-  margin-left: 93px;
+  align-items: center;  
 }
 .header-item {
 }
@@ -78,14 +77,14 @@ ol {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--black-link);
+  margin-right: 50px;
 }
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
 }
-.feedback {
-  display: flex;
-}
+
+
 .header-tel,
 .header-mail {
   text-decoration: none;
@@ -94,8 +93,18 @@ ol {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--grey-heder);
+  display: flex;  
 }
-
+.header-mail{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-right: 50px;
+}
+.header-tel{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-right: 215px;
+}
 .header-mail:hover,
 .header-mail:focus {
   color: var(--accent-color);
@@ -108,16 +117,14 @@ ol {
   margin-left: auto;
   margin-right: auto;
   padding: 94px 0px;
-  width: 100%;
-  height: auto;
+  width:100%; 
   text-align: center;
   outline: 2px solid tomato;
   background: var(--black-hero);
 }
 .hero-title {
+  margin-top: 200px;
   margin-left: 452px;
-  margin-right: 452px;
-
   width: 696px;
   font-weight: 900;
   font-size: 44px;
