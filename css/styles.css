@@ -1,9 +1,4 @@
-/* .body {
-  width: 1600px;
-  margin: 0 auto;
-  background-color: #ffffff;
-  font-family: Roboto, sans-serif;
-} */
+
 :root {
   --black-color: #000000;
   --accent-color: #2196f3;
@@ -15,24 +10,28 @@
   --team-bg: #f5f4fa;
   --border-white: #eeeeee;
 }
-.p,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+body {
+  background-color: var(--primary-background);
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+}
+h1,
+h2,
+h3,
+h4,
+p {
   margin-top: 0;
   margin-bottom: 0;
- 
 }
-.ul,
-.ol {
+
+ul,
+ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
-.current{ color: var(--accent-color);
+.header-link.current { 
+  color: var(--accent-color);
 }
 .container-header {
   display: flex;
@@ -159,6 +158,18 @@
 .hero-btn:focus {
   background-color: var(--blue-hover);
   color: var(--primary-bgc);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 .preference-main{
   padding: 0 15px;
